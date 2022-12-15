@@ -69,6 +69,8 @@ const increaseWithin0To255 = (hex, amount) => {
   return newHex;
 }
 
+console.log("successful");
+
 slider.addEventListener('input', () => {
   sliderText.textContent = `${slider.value}%`;
 })
